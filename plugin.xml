@@ -163,8 +163,8 @@
         <js-module src="src/windows/ContactProxy.js" name="ContactProxy">
             <runs />
         </js-module>
-        <config-file target="package.appxmanifest" parent="/Package/Capabilities" versions=">=10.0.0">
-            <uap:Capability Name="contacts"/>
+        <config-file target="package.appxmanifest" parent="/Package/Capabilities">
+            <uap:Capability Name="contacts" />
         </config-file>
     </platform>
 
